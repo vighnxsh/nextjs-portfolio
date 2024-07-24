@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Kalnia+Glaze:wdth,wght@112.5,100..700&display=swap');
 
 *{
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "DotGothic16", sans-serif;
   font-weight: 400;
   font-style: normal;
 }

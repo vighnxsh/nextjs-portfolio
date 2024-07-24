@@ -25,7 +25,7 @@ export default function Home() {
 
   <GradualSpacing
       className="font-display  text-4xl font-bold tracking-[-0.1em] text-blue-900  pt-3 dark:text-white md:text-7xl md:leading-[5rem]"
-      text=" I'm Vighnesh"
+      text=" I'm Vighnesh !!"
     />
    
 <p className="text-2xl text-sky-100 dark:text-white pt-8 pr-[800px]">
