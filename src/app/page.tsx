@@ -27,12 +27,11 @@ export default function Home() {
       className="font-display  text-4xl font-bold tracking-[-0.1em] text-blue-900  pt-3 dark:text-white md:text-7xl md:leading-[5rem]"
       text=" I'm Vighnesh"
     />
-      <GradualSpacing
-      className="font-display  text-2xl font-bold tracking-[-0.1em] text-blue-100  pt-1 dark:text-white md:text-3xl md:leading-[5rem]"
-      
-      text=" Full-stack dev here, cooking up apps with Next.js, TailWind CSS and Prisma. I do it all, from database to front-end magic. Currently diving into web3 – 'cause why not add more buzz to the tech soup, right? Let's build something awesome!"
-    />
+   
+<p className="text-2xl text-sky-100 dark:text-white pt-8 pr-[800px]">
+Full-stack dev here, cooking up apps with Next.js, TailWind CSS and Prisma. I do it all, from database to front-end magic. Currently diving into web3 – 'cause why not add more buzz to the tech soup, right? Let's build something awesome!
 
+</p>
   
    <Link href="/projects">
    <h1 className="text-blue-100 font-bold text-4xl pt-28 flex ">Explore my Projects<MdArrowOutward />
