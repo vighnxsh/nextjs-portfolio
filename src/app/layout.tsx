@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import DotPattern from "@/components/magicui/dot-pattern";
+import { cn } from "@/lib/utils";
+import CustomDock from "@/components/CustomDock";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +22,27 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body >
+        <div className="flex flex-col min-h-screen bg-gradient-to-b from-sky-600 via-sky-500 to-sky-200 antialiased relative tracking-tighter bg-background overflow-hidden">
+          <div className="relative z-10 flex-grow">
+          <TooltipProvider delayDuration={0}>
+          <Navbar />
+         
+            {children}
+            </TooltipProvider >
+            <div className=" pt-60 items-center justify-center">
+           
+            <Footer />
+            </div>
+          </div>
+         
+          <DotPattern
+            className={cn(
+              "absolute inset-0 [mask-image:radial-gradient(800px_circle_at_center,white,transparent)] z-0",
+            )}
+          />
+        </div>
+      </body>
     </html>
   );
 }
