@@ -25,7 +25,7 @@ export default function Navbar({children, className}: Props) {
      </div>
    
 
-    <h1 className='text-sky-100 md:text-2xl pt-6 pr-36'><Link href='/'>Visit my Blog </Link></h1>
+    <h1 className='text-sky-100 md:text-2xl pt-6 pr-36'><Link href='https://vighnxsh-blog.vercel.app'>Visit my Blog </Link></h1>
 
     {/* <div>
         <h1 className='text-transparent'>trasnss</h1>

@@ -101,6 +101,8 @@ export function CustomDock() {
               <Tooltip>
                 <TooltipTrigger asChild>
                   <Link
+                    target="_blank"
+                  rel="noopener noreferrer"
                     href={social.url}
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "icon" }),
