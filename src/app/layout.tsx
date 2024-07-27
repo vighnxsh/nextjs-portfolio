@@ -8,7 +8,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 
 
 export const metadata: Metadata = {
-  title: "vighnxsh.dev",
+  title: "vighnesh.me",
   description: "Portfolio of Vighnesh",
 };
 

@@ -1,27 +1,12 @@
 "use client";
 
 import GradualSpacing from "@/components/magicui/gradual-spacing";
-import Link from "next/link";
-import { MdArrowOutward } from "react-icons/md";
+
 import * as React from "react"
-import { MinusIcon, PlusIcon } from "@radix-ui/react-icons"
 
-
- 
-import { Button } from "@/components/ui/button"
-import {
-  Drawer,
-  DrawerClose,
-  DrawerContent,
-  DrawerDescription,
-  DrawerFooter,
-  DrawerHeader,
-  DrawerTitle,
-  DrawerTrigger,
-} from "@/components/ui/drawer"
-import { MagicCard } from "@/components/magicui/magic-card";
 import { useTheme } from "next-themes";
 import Skills from "@/components/skills";
+import Link from "next/link";
 
  
 
@@ -91,6 +76,7 @@ export default function Home() {
             className=" text-4xl font-medium tracking-[-0.1em] text-sky-100  dark:text-white md:text-7xl md:leading-[5rem]"
             text="Hello...  "
           />
+          
         </div>
 
 
@@ -100,7 +86,7 @@ export default function Home() {
           className="font-display  text-5xl font-bold tracking-[-0.1em] text-sky-900  pt-3 dark:text-white md:text-7xl md:leading-[5rem]"
           text=" I&apos;m Vighnesh !!"
         />
-        <div className="flex flex-col">
+        <div className="flex ">
 
  
         
@@ -109,8 +95,6 @@ export default function Home() {
 
         </p>
 
-        
-        
 
         </div>
 
@@ -119,39 +103,19 @@ export default function Home() {
         <div className="flex gap-32 pt-16 text-sky-800 ">
         
       
-          
-        {/* <Link href="/projects">
-          <h1 className=" font-bold text-4xl  flex ">Explore my Projects<MdArrowOutward />
-          </h1></Link> */}
 
-        
-{/* 
-          <Drawer>
-      <DrawerTrigger asChild>
-        <p  className="p-5 flex items-center gap-2 text-4xl rounded-xl mx-auto text-white border   m-6 "> my techstack<MdArrowOutward /></p>
-      </DrawerTrigger>
-      <DrawerContent className="bg-slate-200">
-      
-
-    <div
-      className={
-        "flex h-[500px] w-full flex-col gap-4 lg:h-[250px] lg:flex-row"
-      }
-    >
-    <div className="flex gap-4 items-center justify-center">
-   
- 
-    </div>
-    </div>
-      </DrawerContent>
-    </Drawer> */}
-
-          
     
         </div>
         
 <div className="flex pt-6 ">
-   <h1 className="text-6xl font-bold text-sky-800 dark:text-white ">My Skills ✨ ~</h1>
+    <div className="flex flex-col">
+    <h1 className="text-6xl font-bold text-sky-800 dark:text-white ">My Skills ✨ ~</h1>
+
+   
+    {/* <h1 className='text-sky-800 font-semibold md:text-4xl pt-6 pr-36 pl-20 text-2xl'><Link href='/projects'><button className='bg-sky-100 border rounded-xl p-3 '>
+   My Projects  💻</button></Link></h1> */}
+    </div>
+  
 
    <Skills/>
 
