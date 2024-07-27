@@ -21,6 +21,7 @@ import {
 } from "@/components/ui/drawer"
 import { MagicCard } from "@/components/magicui/magic-card";
 import { useTheme } from "next-themes";
+import Skills from "@/components/skills";
 
  
 
@@ -119,12 +120,12 @@ export default function Home() {
         
       
           
-        <Link href="#projects">
+        {/* <Link href="/projects">
           <h1 className=" font-bold text-4xl  flex ">Explore my Projects<MdArrowOutward />
-          </h1></Link>
+          </h1></Link> */}
 
         
-
+{/* 
           <Drawer>
       <DrawerTrigger asChild>
         <p  className="p-5 flex items-center gap-2 text-4xl rounded-xl mx-auto text-white border   m-6 "> my techstack<MdArrowOutward /></p>
@@ -137,40 +138,25 @@ export default function Home() {
         "flex h-[500px] w-full flex-col gap-4 lg:h-[250px] lg:flex-row"
       }
     >
-      <MagicCard
-        className="cursor-pointer flex-col items-center justify-center shadow-2xl whitespace-nowrap text-4xl"
-        gradientColor={theme === "dark" ? "#262626" : "#D9D9D955"}
-      >
-        Magic
-      </MagicCard>
-      <MagicCard
-        className="cursor-pointer flex-col items-center justify-center shadow-2xl whitespace-nowrap text-4xl"
-        gradientColor={theme === "dark" ? "#262626" : "#D9D9D955"}
-      >
-        Card
-      </MagicCard>
+    <div className="flex gap-4 items-center justify-center">
+   
+ 
+    </div>
     </div>
       </DrawerContent>
-    </Drawer>
+    </Drawer> */}
 
           
     
         </div>
         
-<div className="flex flex-col pr-32 items-center justify-center">
+<div className="flex pt-6 ">
+   <h1 className="text-6xl font-bold text-sky-800 dark:text-white ">My Skills ✨ ~</h1>
 
-       
+   <Skills/>
 
 </div>
-       
-
       </div>  
-      <div>
-  
-        
-      </div>
-
-      
     </div>
   );
 }

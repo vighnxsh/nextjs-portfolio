@@ -16,7 +16,7 @@ export default function Navbar({children, className}: Props) {
    
    <Link href='/'>
    <h1 className='text-3xl pt-6  text-white dark:text-white'>
-        vighnxsh.dev
+        vighnxsh.dev🚀
     </h1></Link>
    
      <div className='flex   items-center'>

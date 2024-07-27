@@ -35,7 +35,7 @@ export default function RootLayout({
          
           <DotPattern
             className={cn(
-              "absolute inset-0 [mask-image:radial-gradient(800px_circle_at_center,white,transparent)] z-0",
+              "absolute inset-0 [mask-image:radial-gradient(900px_circle_at_center,white,transparent)] z-0",
             )}
           />
         </div>
