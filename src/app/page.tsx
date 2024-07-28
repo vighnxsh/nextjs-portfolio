@@ -84,14 +84,17 @@ export default function Home() {
 
         <GradualSpacing
           className="font-display  text-5xl font-bold tracking-[-0.1em] text-sky-900  pt-3 dark:text-white md:text-7xl md:leading-[5rem]"
-          text=" I&apos;m Vighnesh !!"
+          text=" I&apos;m Vighnesh "
         />
         <div className="flex ">
 
- 
+
         
         <p className="text-2xl text-sky-100 dark:text-white pt-8 pr-[10px] lg:pr-[800px]">
-          Full-stack dev here, cooking up apps with Next.js, TailWind CSS and Prisma. I do it all, from database to front-end magic. Currently diving into web3 – &apos;cause why not add more buzz to the tech soup, right? Let&apos;s build something awesome!
+        Full-stack dev from   {""}
+        Mumbai ,India
+          {/* <button className=" font-semibold text-blue-700 p-1 text-xl rounded-xl border bg-gradient-to-r from-orange-500 via-white to-green-500 cursor-text">{} Mumbai</button> */}
+           , cooking up apps with <span className="underline">Next.js, TailWind CSS and Prisma.</span>  I do it all, from database to front-end magic. Currently diving into web3 – &apos;cause why not add more buzz to the tech soup, right? Let&apos;s build something awesome!
 
         </p>
 
@@ -107,17 +110,15 @@ export default function Home() {
     
         </div>
         
-<div className="flex pt-6 ">
-    <div className="flex flex-col">
-    <h1 className="text-6xl font-bold text-sky-800 dark:text-white ">My Skills ✨ ~</h1>
-
+<div className="flex flex-col items-center justify-center  pr-20 ">
    
-    {/* <h1 className='text-sky-800 font-semibold md:text-4xl pt-6 pr-36 pl-20 text-2xl'><Link href='/projects'><button className='bg-sky-100 border rounded-xl p-3 '>
-   My Projects  💻</button></Link></h1> */}
-    </div>
+    <h1 className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-sky-800 via-blue-600 to-sky-800 font-bold  pb-6  ">TechStack</h1>
+    <Skills/>
+   
+  
   
 
-   <Skills/>
+ 
 
 </div>
       </div>  
