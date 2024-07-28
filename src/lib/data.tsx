@@ -27,7 +27,7 @@ const tailwind = <RiTailwindCssFill className="text-5xl text-sky-600 font-bold "
 const prisma = <SiPrisma className="text-4xl text-black " /> 
 
 const mongodb = <img src="/mongodb.png" className="w-13 h-11" alt="" />
-const redux = <TbBrandRedux className="text-5xl text-blue-600 " />;
+const redux = <TbBrandRedux className="text-5xl text-violet-600 " />;
 
 const shadcn = <h1 className="text-xl text-black">@shadcn/ui </h1>
 const docker = <h1><AiOutlineDocker className="text-5xl text-blue-600 " />
