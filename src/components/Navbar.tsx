@@ -24,7 +24,7 @@ export default function Navbar({children, className}: Props) {
   return (
 
     <div >
-<div className='flex gap-24  justify-between items-center px-10 fixed top-0 left-0 right-0 z-50 backdrop-blur-md  '>
+<div className='flex gap-24  justify-between items-center px-10 fixed top-0 left-0 right-0 z-50 backdrop-blur-sm  '>
    
    <Link href='/'>
    <h1 className='text-3xl pt-6  text-white dark:text-white'>
