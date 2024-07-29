@@ -73,7 +73,7 @@ export default function Home() {
 
         <div className="pl-3">
           <GradualSpacing
-            className=" text-4xl font-medium tracking-[-0.1em] text-sky-100  dark:text-white md:text-7xl md:leading-[5rem]"
+            className=" text-4xl font-medium tracking-[-0.1em] text-sky-100 pt-8  dark:text-white md:text-7xl md:leading-[5rem]"
             text="Hello...  "
           />
           
@@ -86,7 +86,7 @@ export default function Home() {
           className="font-display  text-5xl font-bold tracking-[-0.1em] text-sky-900  pt-3 dark:text-white md:text-7xl md:leading-[5rem]"
           text=" I&apos;m Vighnesh "
         />
-        <div className="flex ">
+        <div className="flex flex-col items-center justify-center  pr-20 ">
 
 
         
@@ -103,7 +103,7 @@ export default function Home() {
 
      
 
-        <div className="flex gap-32 pt-16 text-sky-800 ">
+        <div className="flex gap-32 pt-16  ">
         
       
 
