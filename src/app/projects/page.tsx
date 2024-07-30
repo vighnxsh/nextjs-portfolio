@@ -2,6 +2,8 @@ import Link from 'next/link';
 import React from 'react';
 import { MdArrowOutward } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
+import { IoArrowBackSharp } from "react-icons/io5";
+
 
 
 const projects = [
@@ -16,7 +18,11 @@ const projects = [
 
 export default function Page() {
   return (
-    <div className='text-6xl text-sky-900 p-4 pt-20 md:p-36 font-semibold flex flex-col items-center justify-center'>
+    <div>
+      <div><h1 className='mt-24 ml-12 text-sky-900 md:text-5xl  text-3xl'><Link href='/'><IoArrowBackSharp />
+      </Link>
+      </h1></div>
+ <div className='text-6xl text-sky-900 p-4  font-semibold flex flex-col items-center justify-center'>
       Projects
       <div className='flex flex-col items-center justify-center gap-16   rounded-xl'>
         {projects.map((project, index) => (
@@ -30,7 +36,7 @@ export default function Page() {
                 />
                 <div className='absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl flex items-center justify-center'>
                   <span className='text-white text-xl md:text-3xl font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center'>
-                    Visit the app <MdArrowOutward className="ml-2" />
+                    Visit  {project.title} <MdArrowOutward className="ml-2" />
                   </span>
                 </div>
               </Link>
@@ -42,5 +48,7 @@ export default function Page() {
         ))}
       </div>
     </div>
+    </div>
+   
   );
 }

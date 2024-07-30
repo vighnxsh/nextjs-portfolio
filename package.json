@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "git": "git add . && git commit -m \"Update\" && git push"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.1",
