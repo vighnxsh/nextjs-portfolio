@@ -62,24 +62,28 @@ export const skillsData = [
  shadcn,
  tailwind,
  query,
- 
  prisma,
  postgres,
-
   node,
   git,
-  
-  
   mongodb,
-  
-  
    docker,
-  // "K8's",
-  // "webRTC",
-  // "tRPC",
   express,
   redux,
   python,
   langchain,
+ 
+] as const;
+
+
+export const FluxSkillsData = [
+  ts,
+ next,
+ tailwind,
+ query,
+ prisma,
+ postgres,
+
+
  
 ] as const;
