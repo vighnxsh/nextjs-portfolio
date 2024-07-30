@@ -115,7 +115,7 @@ export default function Home() {
     <h1 className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-sky-800 via-blue-600 to-sky-800 font-bold  pb-6  ">TechStack</h1>
     <Skills />
    
-    <h1 className="text-5xl mt-0 text-transparent bg-clip-text bg-gradient-to-r from-sky-800 via-blue-600 to-sky-800 font-bold   pb-6  ">techstack i&apos;m learning</h1>
+    <h1 className="text-5xl mt-0 text-transparent bg-clip-text bg-gradient-to-r from-sky-800 via-blue-600 to-sky-800 font-bold   pb-6  ">techstack i&apos;m learning~</h1>
     <Learning/>
   
   
