@@ -7,7 +7,7 @@ import * as React from "react"
 import { useTheme } from "next-themes";
 import Skills from "@/components/skills";
 import Link from "next/link";
-
+import Learning from "@/components/Learning";
  
 
 
@@ -113,8 +113,10 @@ export default function Home() {
 <div className="flex flex-col items-center justify-center  pr-20 ">
    
     <h1 className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-sky-800 via-blue-600 to-sky-800 font-bold  pb-6  ">TechStack</h1>
-    <Skills/>
+    <Skills />
    
+    <h1 className="text-5xl mt-0 text-transparent bg-clip-text bg-gradient-to-r from-sky-800 via-blue-600 to-sky-800 font-bold   pb-6  ">techstack i&apos;m learning</h1>
+    <Learning/>
   
   
 

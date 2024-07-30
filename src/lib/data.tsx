@@ -8,10 +8,11 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { AiOutlineDocker } from "react-icons/ai";
 import { SiExpress } from "react-icons/si";
 import { TbBrandRedux } from "react-icons/tb";
+import { SiKubernetes } from "react-icons/si";
 
-
-
-
+const k8s = <SiKubernetes className="text-5xl text-blue-600 " />
+const solana = <img src="/solana.png" className="w-13 h-11" alt="" />
+const rust = <img src="/rust.png" className="w-13 h-11" alt="" />
 
 
 const ts = <img src="/ts.png" className="w-13 h-11" alt="" />
@@ -32,12 +33,9 @@ const redux = <TbBrandRedux className="text-5xl text-violet-600 " />;
 const shadcn = <h1 className="text-xl text-black">@shadcn/ui </h1>
 const docker = <h1><AiOutlineDocker className="text-5xl text-blue-600 " />
 </h1>
-const k8s = <img src="/k8s.png" className="w-13 h-11" alt="" />
-const webrtc = <img src="/webrtc.png" className="w-13 h-11" alt="" />
-const cicd = <img src="/cicd.png" className="w-13 h-11" alt="" />
-const trpc = <img src="/trpc.png" className="w-13 h-11" alt="" />
-const express = <SiExpress className="text-4xl text-sky-900 " />
 
+const express = <SiExpress className="text-4xl text-sky-900 " />
+const trpc = <h1 className="flex"> <img src="/trpc.png" className="w-10 h-15" /> </h1> 
 const postgres = <BiLogoPostgresql className="text-5xl text-sky-900 " />
 
 const python = <img src="/python.png" className="w-13 h-11" alt="" />
@@ -54,6 +52,9 @@ const query = <div><h1 className="flex items-center justify-center"><svg width="
     </g>
 </g>
 </svg>React Query</h1></div>
+
+
+const redis =  <img src="/redis.png" className="w-15 h-12" alt="" />
 
 export const skillsData = [
   ts,
@@ -83,6 +84,20 @@ export const FluxSkillsData = [
  query,
  prisma,
  postgres,
+ redis
+
+
+ 
+] as const;
+
+
+export const learningData = [
+
+ k8s,
+ rust,
+ solana,
+ redis,
+ trpc
 
 
  

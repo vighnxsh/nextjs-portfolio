@@ -46,7 +46,7 @@ export default function Page() {
                     </div>
                   </Link>
                 </div>
-                <div className='mt-6 bg-black/20 p-4 rounded-xl'>
+                <div className='mt-6 bg-gradient-to-r from-black/50 via-purple-600/40 to-violet-900/60 p-4 rounded-xl'>
                   <h1 className='text-2xl font-bold text-white mb-2'>Tech Stack Used:</h1>
                   <div className='flex flex-wrap gap-2'>
                     {project.techStack.map((tech, i) => (
@@ -61,7 +61,7 @@ export default function Page() {
                 {project.description}
                 <Link className='text-blue-800 text-3xl ' href={project.github} target='_blank'>
                   <h1 className='flex items-center justify-center gap-2 font-bold pt-12 '>
-                    Visit <FaGithub />
+                    Visit <FaGithub  /> for source code <MdArrowOutward />
                   </h1>
                 </Link>
               </div>
