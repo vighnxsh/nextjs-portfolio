@@ -39,14 +39,14 @@ export default function Page() {
                       alt={project.title}
                       className='w-full md:w-[622px] h-auto object-cover shadow-xl rounded-xl transition-all duration-300'
                     />
-                    <div className='absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl flex items-center justify-center'>
+                    <div className='absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl flex items-center justify-center'>
                       <span className='text-white text-xl md:text-3xl font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center'>
                         Visit {project.title} <MdArrowOutward className="ml-2" />
                       </span>
                     </div>
                   </Link>
                 </div>
-                <div className='mt-6 bg-gradient-to-r from-black/50 via-purple-600/40 to-violet-900/60 p-4 rounded-xl'>
+                <div className='mt-6 bg-gradient-to-r from-black/30 via-indigo-600/40 to-violet-900/30 p-4 rounded-xl'>
                   <h1 className='text-2xl font-bold text-white mb-2'>Tech Stack Used:</h1>
                   <div className='flex flex-wrap gap-2'>
                     {project.techStack.map((tech, i) => (

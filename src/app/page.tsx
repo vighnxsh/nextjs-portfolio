@@ -94,8 +94,8 @@ export default function Home() {
         Full-stack dev from   {""}
         Mumbai ,India
           {/* <button className=" font-semibold text-blue-700 p-1 text-xl rounded-xl border bg-gradient-to-r from-orange-500 via-white to-green-500 cursor-text">{} Mumbai</button> */}
-           , cooking up apps with <span className="underline">Next.js, TailWind CSS and Prisma.</span>  I do it all, from database to front-end magic. Currently diving into web3 – &apos;cause why not add more buzz to the tech soup, right? Let&apos;s build something awesome!
-
+           , building apps with <span className="underline">Next.js, TailWind CSS and Prisma.</span>  I do it all, from database to front-end. Currently diving into web3 – &apos;cause why not add more buzz to the tech stack, right? Let&apos;s build something awesome!
+s
         </p>
 
 
