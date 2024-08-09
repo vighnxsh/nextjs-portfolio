@@ -42,14 +42,14 @@ export default function Home() {
         </div>
         <GradualSpacing
           className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-[-0.1em] text-sky-900 dark:text-white"
-          text=" I'm Vighnesh "
+          text=" I&apos;m Vighnesh "
         />
         <div className="mt-8">
           <p className="text-lg sm:text-xl md:text-2xl text-sky-100 dark:text-white max-w-4xl mx-auto">
             Full-stack dev from Mumbai, India, building apps with{" "}
             <span className="underline">Next.js, TailWind CSS and Prisma.</span>{" "}
             I do it all, from database to front-end. Currently diving into web3
-            – 'cause why not add more buzz to the tech stack, right? Let's build
+            – 'cause why not add more buzz to the tech stack, right? Let&apos;s build
             something awesome!
           </p>
         </div>
@@ -61,7 +61,7 @@ export default function Home() {
         </h1>
         <Skills />
         <h1 className="text-3xl sm:text-4xl md:text-5xl text-center text-transparent bg-clip-text bg-gradient-to-r from-sky-800 via-blue-600 to-sky-800 font-bold mt-16 mb-8">
-          techstack i'm learning~
+          techstack i&apos;m learning~
         </h1>
         <Learning />
       </div>
