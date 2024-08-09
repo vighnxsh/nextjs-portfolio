@@ -20,13 +20,13 @@ export default function Page() {
   return (
     <div className="px-4 sm:px-6 md:px-8 lg:px-12 py-8">
       <div>
-        <h1 className='mt-8 sm:mt-16 md:mt-24 text-sky-900 text-3xl md:text-5xl'>
+        <h1 className='mt-8 sm:mt-16 md:mt-24 text-violet-900 text-3xl md:text-5xl'>
           <Link href='/'>
             <IoArrowBackSharp />
           </Link>
         </h1>
       </div>
-      <div className='text-4xl sm:text-5xl md:text-6xl text-sky-900 p-4 font-semibold flex flex-col items-center justify-center'>
+      <div className='text-4xl sm:text-5xl md:text-6xl text-violet-900 p-4 font-semibold flex flex-col items-center justify-center'>
         Projects
         <div className='w-full max-w-7xl mx-auto'>
           {projects.map((project, index) => (

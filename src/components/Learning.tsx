@@ -22,7 +22,7 @@ export default function Learning() {
   return (
     <section
       id="learning"
-      className="mb-8 sm:mb-10 md:mb-12 max-w-[53rem] scroll-mt-12 text-center mx-auto px-4 sm:px-6"
+      className="mb-0 sm:mb-10 md:mb-12 max-w-[53rem] scroll-mt-12 text-center mx-auto px-4 sm:px-6"
     >
       <ul className="flex flex-wrap justify-center items-center gap-2 sm:gap-3">
         {learningData.map((skill, index) => (

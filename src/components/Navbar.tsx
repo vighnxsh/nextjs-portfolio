@@ -40,7 +40,7 @@ export default function Navbar({children, className}: Props) {
      <div className='pt-6'>
   {pathname !== '/projects' && (
     <Link href='/projects'>
-      <button className='text-sky-800 font-semibold text-sm md:text-2xl bg-sky-100 border rounded-xl p-2 md:p-3'>
+      <button className='text-violet-800 font-semibold text-sm md:text-2xl bg-sky-100 border rounded-xl p-2 md:p-3'>
         <span className='hidden md:inline'>My Projects </span>
         <span className='md:hidden text-3xl'>💻</span>
         <span className='hidden md:inline'>💻</span>

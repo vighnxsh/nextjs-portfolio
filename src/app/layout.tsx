@@ -20,15 +20,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body >
-        <div className="flex flex-col min-h-screen bg-gradient-to-b from-sky-600 via-sky-300 to-sky-200 antialiased relative tracking-tighter bg-background overflow-hidden">
+        <div className="flex flex-col min-h-screen bg-gradient-to-b from-violet-600 via-violet-300 to-violet-600 antialiased relative tracking-tighter bg-background overflow-hidden">
           <div className="relative z-10 flex-grow">
           <TooltipProvider delayDuration={0}>
           <Navbar  />
           {children}
             </TooltipProvider >
-            <div className=" pt-60 items-center justify-center">
+            <div className=" pt-10 items-center justify-center">
            
-            <Footer />
+            <Footer  />
             </div>
           </div>
          
