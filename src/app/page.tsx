@@ -5,6 +5,7 @@ import * as React from "react";
 import { useTheme } from "next-themes";
 import Skills from "@/components/skills";
 import Learning from "@/components/Learning";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   const { theme } = useTheme();
@@ -57,6 +58,8 @@ export default function Home() {
           </p>
         </div>
       </div>
+
+      <Projects/>
 
       <div className="mt-16 sm:mt-20 md:mt-24 lg:mt-32">
         <h1 className="text-4xl sm:text-5xl md:text-6xl text-center text-transparent bg-clip-text bg-gradient-to-r from-violet-950 via-violet-700 to-violet-950 font-bold mb-8">
