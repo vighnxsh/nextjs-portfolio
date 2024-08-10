@@ -24,7 +24,7 @@ export default function Navbar({children, className}: Props) {
   return (
 
     <div >
-<div className='flex gap-24  justify-between items-center px-10 fixed top-0 left-0 right-0 z-50 backdrop-blur-sm  '>
+<div className='flex gap-24  justify-between items-center px-10  top-0 left-0 right-0 z-50 backdrop-blur-sm  '>
   
    <Link href='/' className='hidden md:block'>
   <h1 className='text-3xl pt-6 text-white dark:text-white md:text-transparent'>
@@ -37,7 +37,7 @@ export default function Navbar({children, className}: Props) {
     
      <CustomDock  />
      </div>
-     <div className='pt-6'>
+     {/* <div className='pt-6'>
   {pathname !== '/projects' && (
     <Link href='/projects'>
       <button className='text-violet-800 font-semibold text-sm md:text-2xl bg-sky-100 border rounded-xl p-2 md:p-3'>
@@ -47,7 +47,7 @@ export default function Navbar({children, className}: Props) {
       </button>
     </Link>
   )}
-</div>
+</div> */}
     
   
 

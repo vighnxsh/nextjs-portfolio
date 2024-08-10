@@ -91,6 +91,24 @@ export const FluxSkillsData = [
 ] as const;
 
 
+
+export const BlogSkillsData = [
+  ts,
+ next,
+ tailwind,
+ query,
+ prisma,
+ postgres,
+
+
+
+ 
+] as const;
+
+
+
+
+
 export const learningData = [
 
  k8s,

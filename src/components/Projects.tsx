@@ -1,9 +1,18 @@
-import Link from 'next/link';
-import React from 'react';
-import { MdArrowOutward } from "react-icons/md";
+import * as React from "react"
+
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
+import { FluxSkillsData} from '../lib/data';
+import {BlogSkillsData} from "../lib/data";
+import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
-import { IoArrowBackSharp } from "react-icons/io5";
-import { FluxSkillsData } from '../lib/data';
+import { MdArrowOutward } from "react-icons/md";
+
 
 const projects = [
   {
@@ -13,26 +22,30 @@ const projects = [
     link: 'https://forumflux.vercel.app/',
     github: 'https://github.com/vighnxsh/forumflux',
     techStack: [...FluxSkillsData]
+  },
+  {
+    title: 'Personal Blog App',
+    description: 'A personal blog app built with Next.js, Tailwind CSS, and Prisma. It allows users to create, edit, and delete posts. The application leverages Next.js for efficient rendering, Prisma for robust database management, and Tailwind CSS for a sleek, responsive design. Developed in TypeScript, it offers full CRUD functionality, ensuring a seamless and interactive user experience.',
+    image: '/flux.png',
+    link: 'https://vighnxsh-blog.vercel.app/',
+    github: 'https://github.com/vighnxsh/personal-blog',
+    techStack: [...BlogSkillsData]
   }
-];
+]
 
-export default function Projects() {
+
+
+export function Projects() {
   return (
-    <div className="px-4 sm:px-6 md:px-8 lg:px-12 py-8">
-      <div>
-        <h1 className='mt-8 sm:mt-16 md:mt-24 text-violet-900 text-3xl md:text-5xl'>
-          <Link href='/'>
-            <IoArrowBackSharp />
-          </Link>
-        </h1>
-      </div>
-      <div className='text-4xl sm:text-5xl md:text-6xl text-violet-900 p-4 font-semibold flex flex-col items-center justify-center'>
-        Projects
-        <div className='w-full max-w-7xl mx-auto'>
-          {projects.map((project, index) => (
+    <Carousel >
+      <CarouselContent>
+        {projects.map((project, index) => (
+          <CarouselItem key={index}>
+              <div className='w-full max-w-7xl mx-auto'>
+          
             <div key={index} className='flex flex-col lg:flex-row items-start justify-center gap-4 sm:gap-8 md:gap-16 mt-8 sm:mt-12 md:mt-20 rounded-xl w-full'>
               <div className='flex flex-col w-full lg:w-1/2 flex-shrink-0'>
-              <div className='relative w-full lg:max-w-[400px] overflow-hidden rounded-xl group'>
+              <div className='relative w-full lg:max-w-[500px] overflow-hidden rounded-xl group'>
   <Link target='_blank' href={project.link}>
     <img
       src={project.image}
@@ -66,9 +79,13 @@ export default function Projects() {
                 </Link>
               </div>
             </div>
-          ))}
+          
         </div>
-      </div>
-    </div>
-  );
+          </CarouselItem>
+        ))}
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
+  )
 }
