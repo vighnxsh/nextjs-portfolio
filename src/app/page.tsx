@@ -53,7 +53,7 @@ export default function Home() {
             Full-stack dev from Mumbai, India, building apps with{" "}
             <span className="underline text-violet-900">Next.js, Prisma and  TailWind CSS.</span>{" "}
             I do it all, from database to front-end. Currently diving into web3
-            – &apos;cause why not add more buzz to the tech stack, right? Let's build
+            – &apos;cause why not add more buzz to the tech stack, right? Let&apos;s build
             something awesome!
           </p>
         </div>
