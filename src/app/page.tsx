@@ -45,13 +45,13 @@ export default function Home() {
           />
         </div>
         <GradualSpacing
-          className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-[-0.1em] text-violet-900 dark:text-white"
+          className="font-display text-5xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-[-0.1em] text-violet-900 dark:text-white"
           text=" I&apos;m Vighnesh "
         />
         <div className="mt-6">
-          <p className="text-lg sm:text-xl md:text-2xl text-sky-100 dark:text-white">
+          <p className="text-lg sm:text-xl md:text-3xl text-sky-100 dark:text-white">
             Full-stack dev from Mumbai, India, building apps with{" "}
-            <span className="underline">Next.js, TailWind CSS and Prisma.</span>{" "}
+            <span className="underline text-violet-900">Next.js, Prisma and  TailWind CSS.</span>{" "}
             I do it all, from database to front-end. Currently diving into web3
             – &apos;cause why not add more buzz to the tech stack, right? Let's build
             something awesome!
