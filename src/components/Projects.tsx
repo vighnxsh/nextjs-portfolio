@@ -30,6 +30,15 @@ const projects = [
     link: 'https://vighnxsh-blog.vercel.app/',
     github: 'https://github.com/vighnxsh/personal-blog',
     techStack: [...BlogSkillsData]
+  },
+  {
+    title : 'Send SOL',
+    description : 'A simple transfer app that allows users to send SOL to each other. It uses the SOLANA blockchain and the Phantom wallet.',
+    image: '/solana.png',
+    link: 'https://send-s0l.vercel.app/',
+    github: 'https://github.com/vighnxsh/send-sol',
+    techStack: []
+   
   }
 ]
 
