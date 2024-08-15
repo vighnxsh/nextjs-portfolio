@@ -23,13 +23,13 @@ const projects = [
     github: 'https://github.com/vighnxsh/forumflux',
     techStack: [...FluxSkillsData]
   },
-  {
-    title: 'Personal Blog App',
-    description: 'A personal blog app built with Next.js, Tailwind CSS, and Prisma. It allows users to create, edit, and delete posts. The application leverages Next.js for efficient rendering, Prisma for robust database management, and Tailwind CSS for a sleek, responsive design. Developed in TypeScript, it offers full CRUD functionality, ensuring a seamless and interactive user experience.',
-    image: '/flux.png',
-    link: 'https://vighnxsh-blog.vercel.app/',
-    github: 'https://github.com/vighnxsh/personal-blog',
-    techStack: [...BlogSkillsData]}
+  // {
+  //   title: 'Personal Blog App',
+  //   description: 'A personal blog app built with Next.js, Tailwind CSS, and Prisma. It allows users to create, edit, and delete posts. The application leverages Next.js for efficient rendering, Prisma for robust database management, and Tailwind CSS for a sleek, responsive design. Developed in TypeScript, it offers full CRUD functionality, ensuring a seamless and interactive user experience.',
+  //   image: '/flux.png',
+  //   link: 'https://vighnxsh-blog.vercel.app/',
+  //   github: 'https://github.com/vighnxsh/personal-blog',
+  //   techStack: [...BlogSkillsData]}
   // },
   // {
   //   title : 'Send SOL',
